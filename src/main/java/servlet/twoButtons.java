@@ -20,7 +20,7 @@ import javax.servlet.annotation.WebServlet;
 
 
 @WebServlet(
-        name = "TwoButtons", // "MyServlet2",
+        name = "twoButtons", // "MyServlet2",
         urlPatterns = {"/twoButtons"}
     )
 
