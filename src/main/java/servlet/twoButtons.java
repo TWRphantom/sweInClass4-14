@@ -137,7 +137,6 @@ private void PrintBody (PrintWriter out, String lhs, String rhs, String rslt)
    out.println("<body>");
    out.println("<p>");
    out.println("Partners: Megan Ngo and Thomas Rigger");
-   out.println("multiple submit buttons.");
    out.println("</p>");
    out.print  ("<form method=\"post\"");
    out.println(" action=\"https://" + Domain + Path + Servlet + "\">");
