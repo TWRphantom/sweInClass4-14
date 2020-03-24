@@ -42,6 +42,10 @@ import javax.servlet.annotation.WebServlet;
 public class twoButtons extends HttpServlet
 {
 
+static String Domain ="swe432twobuttons.herokuapp.com";
+static String Path    = "/twoButtons";
+static String Servlet = "twoButtons";
+
 // Location of servlet.
 // static String Domain  = "cs.gmu.edu:8443";
 // static String Path    = "/offutt/servlet/";
