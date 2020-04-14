@@ -164,6 +164,31 @@ public class persistenceFile extends HttpServlet{
      out.println("</form>");
      out.println("");
      out.println("</body>");
+     
+     out.print  ("<form Date of birth=\"persist2file\" method=\"post\"");
+     out.println(" action=\""+Domain+Path+Servlet+"\">");
+     out.println("");
+     out.println(" <table>");
+     out.println("  <tr>");
+     out.println("   <td>Name:</td>");
+     out.println("   <td><input type=\"text\" name=\""+Data.NAME.name()
+      +"\" value=\""+name+"\" size=30 required></td>");
+     out.println("  </tr>");
+     out.println("  <tr>");
+     out.println("   <td>Age:</td>");
+     out.println("   <td><input type=\"text\"  name=\""+Data.AGE.name()
+      +"\" oninput=\"this.value=this.value.replace(/[^0-9]/g,'');\" value=\""
+      +age+"\" size=3 required></td>");
+     out.println("  </tr>");
+     out.println(" </table>");
+     out.println(" <br>");
+     out.println(" <br>");
+     out.println(" <input type=\"submit\" value=\"" + OperationAdd
+      + "\" name=\"Operation\">");
+     out.println(" <input type=\"reset\" value=\"Reset\" name=\"reset\">");
+     out.println("</form>");
+     out.println("");
+     out.println("</body>");
   }
 
   /** *****************************************************
