@@ -14,7 +14,7 @@
 <body>
 <h2>Hello Heroku! I am JSP</h2>
 <strong>Current Time is</strong>: <%=new Date() %>
-<button onclick="window.location.assign(servletURL);"> Try the servlet </button>
+<button onclick="window.location.assign(servletURL);"> Try the servlet </file>
 
 </body>
 </html>
