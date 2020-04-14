@@ -17,4 +17,4 @@
 <button onclick="window.location.assign(servletURL);"> Try the servlet </button>
 
 </body>
-</html>
+</html> 
