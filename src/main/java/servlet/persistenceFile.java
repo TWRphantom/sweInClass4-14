@@ -216,6 +216,6 @@ public class persistenceFile extends HttpServlet{
   ********************************************************* */
   private void PrintTail (PrintWriter out){
      out.println("");
-     out.println("</html>");
+     out.println("</html>"); 
   }
 }
