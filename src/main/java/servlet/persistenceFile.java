@@ -164,7 +164,6 @@ public class persistenceFile extends HttpServlet{
      out.println("</form>");
      out.println("");
      out.println("</body>");
-     
   }
 
   /** *****************************************************
